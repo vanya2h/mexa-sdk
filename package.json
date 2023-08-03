@@ -15,12 +15,9 @@
   },
   "dependencies": {
     "@biconomy/gasless-messaging-sdk": "^0.0.2",
-    "@ethersproject/providers": "^5.6.8",
-    "axios": "^0.27.2",
     "ethereum-tx-decoder": "^3.0.0",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^7.1.5",
-    "ethers": "^5.6.9",
     "install": "^0.13.0",
     "isomorphic-ws": "^5.0.0",
     "mongoose": "^6.4.4",
@@ -30,10 +27,16 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9",
     "eslint": "^8.19.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "ethers": ">=5.0.0 <6.0.0",
+    "axios": ">=0.24.0 <1.0.0"
   }
 }
